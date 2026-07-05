@@ -1,0 +1,22 @@
+name: Validate skills
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate SKILL.md files
+        run: |
+          set -e
+          missing=0
+          while IFS= read -r dir; do
+            if [ ! -f "$dir/SKILL.md" ]; then
+              echo "Missing SKILL.md in $dir"
+              missing=1
+            fi
+          done < <(find skills -mindepth 2 -maxdepth 2 -type d)
+          exit $missing
