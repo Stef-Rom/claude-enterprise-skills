@@ -7,6 +7,12 @@
 - 13 core enterprise skills
 - Shared templates and checklists
 
+## [0.2.1] - 2026-07-05
+
+### Added
+
+- Added `linkedin-profile-optimizer` Skill under `skills/career/` to update LinkedIn profiles, headlines, About sections, experience entries, skills, Featured content, and recruiter keyword strategy.
+
 ## [0.2.0] - 2026-07-05
 
 ### Added

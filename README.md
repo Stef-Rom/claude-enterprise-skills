@@ -16,6 +16,7 @@ Core skills in this first release:
 | Career | `cv-signature` | Premium CV, ATS, LinkedIn, job matching |
 | Career | `job-match-analyzer` | Analyze job offers and adapt CV/profile |
 | Career | `recruiter-review` | Simulate HR, engineering manager, CTO review |
+| Career | `linkedin-profile-optimizer` | Update LinkedIn profile, headline, About, experience, skills and recruiter visibility |
 | Azure | `azure-architect` | Azure architecture review and design |
 | Azure | `cosmosdb-expert` | Cosmos DB performance, storage, RU, partitioning |
 | Azure | `azure-devops-expert` | Azure DevOps pipelines and delivery workflows |
@@ -102,7 +103,7 @@ python scripts/validate_skills.py
 Expected output:
 
 ```text
-OK: validated 13 Skills.
+OK: validated 14 Skills.
 ```
 
 ## GitHub first commit
