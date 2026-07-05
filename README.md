@@ -3,7 +3,7 @@
 A professional Claude Skills library for Azure, Python, React, DevOps, SaaS architecture, customer delivery, documentation, and career acceleration.
 
 Author: Stef-Rom  
-Version: 0.1.0
+Version: 0.2.2
 
 ## What is included
 
@@ -21,6 +21,7 @@ Core skills in this first release:
 | Azure | `cosmosdb-expert` | Cosmos DB performance, storage, RU, partitioning |
 | Azure | `azure-devops-expert` | Azure DevOps pipelines and delivery workflows |
 | DevOps | `deployment-orchestrator` | QA, tests, rollout, rollback, release comms |
+| DevOps | `automation-engineer` | Automate scripts, cron jobs, Airflow DAGs, AI-triggered tasks, and generate English Wikis |
 | Development | `python-architect` | Python backend architecture and quality |
 | Development | `react-enterprise` | React enterprise frontend architecture |
 | AI | `ai-assisted-development` | AI-assisted coding, review, prompting, agents |
@@ -103,7 +104,7 @@ python scripts/validate_skills.py
 Expected output:
 
 ```text
-OK: validated 14 Skills.
+OK: validated 15 Skills.
 ```
 
 ## GitHub first commit

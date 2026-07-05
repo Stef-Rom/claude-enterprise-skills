@@ -1,5 +1,15 @@
 # Changelog
 
+
+## [0.2.2] - 2026-07-05
+
+### Added
+
+- Added `automation-engineer` Skill under DevOps.
+- Added automation proposal template.
+- Added English Wiki template for operational automation documentation.
+- Added cron/Python automation example.
+
 ## 0.1.0 - Initial release
 
 - Repository structure

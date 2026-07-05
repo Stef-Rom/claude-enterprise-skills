@@ -44,3 +44,10 @@ Planned Skills:
 - Full documentation
 - Validation test suite
 - Examples for real-world workflows
+
+
+## Automation roadmap
+
+- [x] `automation-engineer`: cron, Airflow, AI-triggered scripts, server scripts, custom automation, deployment validation, and English Wiki generation.
+- [ ] Add ready-to-use script generators for Python, Bash, PowerShell, Airflow, and Azure DevOps.
+- [ ] Add automation security policy templates and approval gates.
