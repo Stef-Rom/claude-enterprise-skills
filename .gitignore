@@ -1,18 +1,29 @@
-# macOS
+# OS
 .DS_Store
-
-# Windows
 Thumbs.db
 
-# VS Code
+# Editors
 .vscode/
-
-# JetBrains
 .idea/
+*.swp
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
 
-# Claude
+# Node
+node_modules/
+dist/
+build/
+
+# Claude local/runtime
 .claude/cache/
+*.local.md
+
+# Archives
+*.zip
+*.tar.gz

@@ -77,3 +77,38 @@ Use cv-signature to adapt my CV to this job offer.
 ## Security note
 
 Skills can contain instructions and optional scripts. Review third-party skills before installation. This repository is designed to be mostly instruction-based and avoids destructive automation by default.
+
+## Repository Quality
+
+This repository includes open source project assets:
+
+- GitHub issue templates
+- Pull request template
+- CODEOWNERS
+- Code of Conduct
+- Security policy
+- Roadmap
+- Local validation script
+- GitHub Actions workflow
+
+## Validate the repository
+
+Run:
+
+```bash
+python scripts/validate_skills.py
+```
+
+Expected output:
+
+```text
+OK: validated 13 Skills.
+```
+
+## GitHub first commit
+
+See [`docs/GITHUB_SETUP.md`](docs/GITHUB_SETUP.md) for the recommended first commit procedure.
+
+## Release process
+
+See [`docs/RELEASE_PROCESS.md`](docs/RELEASE_PROCESS.md).

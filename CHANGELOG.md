@@ -6,3 +6,23 @@
 - Installation scripts for Linux/macOS and Windows
 - 13 core enterprise skills
 - Shared templates and checklists
+
+## [0.2.0] - 2026-07-05
+
+### Added
+
+- GitHub issue templates for bugs and feature requests.
+- Pull request template.
+- CODEOWNERS file.
+- Code of Conduct.
+- Security policy.
+- Roadmap.
+- Local Skill validation script: `scripts/validate_skills.py`.
+- GitHub Actions workflow for Skill structure validation.
+- GitHub setup documentation.
+- Release process documentation.
+- Project `.gitignore`.
+
+### Changed
+
+- Repository is now prepared for open source collaboration and CI-based validation.
